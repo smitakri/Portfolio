@@ -11,8 +11,8 @@ export const Bio = {
     resume:
       "https://drive.google.com/file/d/1Z1rG18iDJ06FPEdlx-4yD4pJ_Sbepgf-/view?usp=drivesdk",
     linkedin: "https://linkedin.com/in/smita-kumari2002",
-    twitter: "",
-    insta: "",
+    twitter: "https://twitter.com/smitaKu13350106",
+    insta: "https://www.instagram.com/smita._2002/",
     
   };
   
@@ -159,15 +159,16 @@ export const Bio = {
     {
       id: 0,
       img: "https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
+      role: "Engineer Tranie",
+      company: "Happiest Minds Technology",
       date: "June 2023 - Present",
       desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
         "ReactJS",
         "Redux",
         "NodeJs",
-        "Material UI",
+        "JAVA",
+        "sql",
         "HTML",
         "CSS",
         "JavaScript",
@@ -180,30 +181,22 @@ export const Bio = {
     {
       id: 0,
       img: "https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-      date: "Oct 2021 - Sep 2025",
-      grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+      school: "Technocrats Institute of Technology, Bhopal",
+      date: "Aug 2019 - Jun 2023",
+      grade: "8.69 CGPA",
+      desc: "I have done my  Bachelor's degree in Computer Science and Engineering at Technocrats Institute of Technology, Bhopal.  I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
       id: 1,
       img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
-    },
-    {
-      id: 2,
-      img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
-      school: "Methodist School, Dankuni",
+      school: "Gyan Bharti +2 High School, Jehanabad",
       date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
+      grade: "73%",
+      desc: "I completed my class 12 high school education. where I studied Science with Physics, Chemistry & Math.",
+      degree: "BESB(XII), Science ",
     },
+    
   ];
   
   export const projects = [

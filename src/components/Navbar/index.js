@@ -81,7 +81,7 @@ cursor: pointer;
 text-decoration: none;
 transition: all 0.2s ease-in-out;
 &:hover {
-  color: ${({ theme }) =>  theme.text_primary};
+  color: ${({ theme }) =>  theme.primary};
 }
 `;
 
