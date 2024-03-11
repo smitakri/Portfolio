@@ -93,6 +93,30 @@ margin-bottom: 10px;
 }
 `;
 
+const Skills = styled.div`
+width: 100%;
+display: flex;
+gap: 12px;
+margin-top: 10px;
+`;
+
+const ItemWrapper = styled.div`
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+`;
+
+const Skill = styled.div`
+font-size: 15px;
+font-weight: 400;
+color: ${({ theme }) => theme.text_primary + 99};
+@media (max-width: 768px){
+    font-size: 12px;
+}
+`;
+
+
+
 function ExperienceCard( { experience }) {
   return (
     <Card>
@@ -104,7 +128,22 @@ function ExperienceCard( { experience }) {
             <Duration>{experience.date}</Duration>
         </Body>
       </Top>
-      <Description>{experience.desc}</Description>
+      <Description>{experience.desc}
+      {experience?.skills && (
+        <>
+        <br />
+           <Skills>
+                <b>Skills:</b>
+                <ItemWrapper>
+                    {experience.skills.map((skill) => (
+                        <Skill>. {skill}</Skill>
+                    ))}
+                </ItemWrapper>
+            </Skills>
+        </>
+      )}
+      </Description>
+      
     </Card>
   )
 }
