@@ -16,6 +16,8 @@ justify-content: centre;
 align-items: centre;
 font-size: 1rem;
 position: sticky;
+padding-top: 25px;
+background-color: black;
 top: 0;
 z-index: 10;
 @media screen and (max-width: 90px) {
